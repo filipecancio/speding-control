@@ -16,6 +16,6 @@ app.get('/', function(req, res) {
     res.send(JSON.stringify(dados));
   });
 
-  app.listen(8000, function() {
+  app.listen(8001, function() {
     console.log('Servidor rodando na porta 8000.');
   });
