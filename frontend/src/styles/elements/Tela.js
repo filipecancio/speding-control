@@ -9,6 +9,8 @@ export const Tela = styled.div`
   height: 90vh;
   min-height: 600px;
 
+  padding: 19px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
