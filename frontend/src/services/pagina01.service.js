@@ -1,15 +1,11 @@
-import request from "superagent";
+import axios from "axios";
 
-const base_url = "http://31.220.60.150:8001/";
+const base_url = "http://31.220.60.150:8001";
 
-async function retrieve_trail_content() {
-  try {
-    const res = await request.get(`${base_url}`);
-    console.log(res.body);
-    return res.body;
-  } catch (err) {
-    console.log(err.message);
-  }
+async function retrieve_trail_content(path) {
+  var response;
+  axios.get(`${base_url}/${path}`).then((response = res => res));
+  return response ? await response.data : {};
 }
 
 export default retrieve_trail_content;
