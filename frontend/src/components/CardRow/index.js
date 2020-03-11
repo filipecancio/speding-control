@@ -7,9 +7,9 @@ function CardRow(props) {
   return (
     <>
       <Content>
-        <CardPurple />
-        <CardPurple />
-        <CardPurple />
+        <CardPurple active text="Controle de gastos" />
+        <CardPurple text="Desbloquear cartão" />
+        <CardPurple text="Cobrar" />
       </Content>
     </>
   );

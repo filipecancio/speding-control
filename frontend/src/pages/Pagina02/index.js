@@ -1,10 +1,18 @@
 import React from "react";
+import Graph from "../../components/Graph";
+import TitleGraph from "../../components/TitleGraph";
+import BudgetRange from "../../components/BudgetRange";
+import EnableNotifications from "../../components/EnableNotifications";
+import { WhiteScreen } from "../../styles/elements/Tela";
 
 function Pagina02() {
   return (
-    <>
-      <h1>Página 02</h1>
-    </>
+    <WhiteScreen>
+      <TitleGraph />
+      <Graph />
+      <BudgetRange />
+      <EnableNotifications />
+    </WhiteScreen>
   );
 }
 
