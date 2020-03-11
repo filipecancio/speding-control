@@ -17,6 +17,7 @@ export const Content = styled.div`
     font-weight: 600;
     font-size: 12px;
     margin: 5px;
+    color: #c4c4c4;
   }
   & h3 {
     font-style: normal;

@@ -1,9 +1,10 @@
 import React from "react";
+import { Content } from "./styles";
 
 function BudgetRange(props) {
   return (
     <>
-      <h1>Defina um orçamento para essa categoria:</h1>
+      <Content>Defina um orçamento para essa categoria:</Content>
     </>
   );
 }

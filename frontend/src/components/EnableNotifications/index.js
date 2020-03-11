@@ -1,10 +1,13 @@
 import React from "react";
+import { Content, Icon } from "./styles";
 
 function EnableNotifications(props) {
   return (
     <>
-      <h1>Ativar Alerta</h1>
-      <p>SALVAR</p>
+      <Content>
+        <Icon />
+        <h1>Ativar Alerta</h1>
+      </Content>
     </>
   );
 }

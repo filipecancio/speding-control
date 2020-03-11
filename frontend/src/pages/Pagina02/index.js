@@ -11,6 +11,7 @@ function Pagina02() {
       <Graph />
       <BudgetRange />
       <EnableNotifications />
+      <button>SALVAR</button>
     </>
   );
 }

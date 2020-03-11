@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Tela = styled.div`
   background-color: ${props =>
-    props.blancked ? "var(--color-third-400)" : "var(--color-primary-600)"};
+    props.blancked ? "var(--color-third-300)" : "var(--color-primary-600)"};
   color: ${props => props.blancked && "var(--color-third-900)"};
 
   width: 360px;

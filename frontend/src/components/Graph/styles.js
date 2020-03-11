@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import test from "../../icons/icon-grafico-01.svg";
+import icon from "../../icons/icon-grafico-01.svg";
 
 export const Content = styled.div`
-  background-color: var(--color-third-400);
+  background-color: var(--color-third-300);
   width: 100%;
   height: 200px;
   border-radius: 2px;
@@ -14,7 +14,7 @@ export const Content = styled.div`
 `;
 
 export const Icon = styled.div`
-  background: url(${test}) no-repeat center right;
+  background: url(${icon}) no-repeat center right;
   width: 90%;
   height: 300px;
 `;
