@@ -21,7 +21,7 @@ const Router = () => (
         </Tela>
       </Route>
       <Route path="/3" exact>
-        <Tela>
+        <Tela blancked>
           <Pagina03 />
         </Tela>
       </Route>
