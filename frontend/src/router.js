@@ -5,6 +5,7 @@ import Pagina01 from "./pages/Pagina01";
 import Pagina02 from "./pages/Pagina02";
 import Pagina03 from "./pages/Pagina03";
 import Pagina04 from "./pages/Pagina04";
+import Pagina05 from "./pages/Pagina05";
 import { Tela } from "./styles/elements/Tela";
 
 const Router = () => (
@@ -26,8 +27,13 @@ const Router = () => (
         </Tela>
       </Route>
       <Route path="/4" exact>
-        <Tela>
+        <Tela blancked>
           <Pagina04 />
+        </Tela>
+      </Route>
+      <Route path="/5" exact>
+        <Tela>
+          <Pagina05 />
         </Tela>
       </Route>
     </Switch>
