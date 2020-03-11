@@ -4,7 +4,7 @@ import test from "../../icons/icon-grafico-01.svg";
 export const Content = styled.div`
   background-color: var(--color-third-400);
   width: 100%;
-  height: 100%;
+  height: 200px;
   border-radius: 2px;
 
   display: flex;
