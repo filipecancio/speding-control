@@ -7,14 +7,14 @@ import EnableNotifications from "../../components/EnableNotifications";
 
 function Pagina02() {
   return (
-    <>
+    <div>
       <ButtonBack />
       <TitleGraph />
       <Graph />
       <BudgetRange />
       <EnableNotifications />
       <button>SALVAR</button>
-    </>
+    </div>
   );
 }
 

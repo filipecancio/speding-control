@@ -16,13 +16,13 @@ function Pagina01() {
     })();
   }, []);
   return (
-    <>
+    <div>
       <CardWhite
         nome={data ? data.energia : "não foi"}
         saldo={data ? data.agua : "não foi"}
       />
       <CardRow />
-    </>
+    </div>
   );
 }
 

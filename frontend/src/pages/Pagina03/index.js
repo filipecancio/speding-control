@@ -3,7 +3,7 @@ import BadgeTransaction from "../../components/BadgeTransaction";
 
 function Pagina03() {
   return (
-    <>
+    <div>
       <BadgeTransaction
         categoria="Restaurante"
         nome="Outback Steak House"
@@ -22,7 +22,7 @@ function Pagina03() {
         valor="40,85"
         data="13  MAR"
       />
-    </>
+    </div>
   );
 }
 
