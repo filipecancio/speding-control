@@ -7,6 +7,7 @@ export const Tela = styled.div`
 
   width: 320px;
   height: 568px;
+  margin-top: 2.5vh;
   overflow: hidden;
 
   & > :nth-child(2) {
@@ -24,4 +25,19 @@ export const Tela = styled.div`
   border-radius: 5px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media (max-width: 700px) {
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+
+    & > :nth-child(1),
+    > :nth-child(3) {
+      display: none;
+    }
+
+    & > :nth-child(2) {
+      height: 90vh;
+    }
+  }
 `;

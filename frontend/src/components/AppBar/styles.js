@@ -13,16 +13,16 @@ export const Content = styled.div`
 `;
 export const Triangle = styled.div`
   background: url(${triangle}) no-repeat center right;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 `;
 export const Circle = styled.div`
   background: url(${circle}) no-repeat center right;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 `;
 export const Square = styled.div`
   background: url(${square}) no-repeat center right;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 `;
