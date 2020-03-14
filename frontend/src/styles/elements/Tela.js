@@ -11,8 +11,13 @@ export const Tela = styled.div`
   overflow: hidden;
 
   & > :nth-child(2) {
-    height: 460px;
-    margin: 19px;
+    height: 498px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     overflow: scroll;
     ::-webkit-scrollbar {
       display: none;
