@@ -10,6 +10,7 @@ function CardRow(props) {
         <CardPurple active text="Controle de gastos" />
         <CardPurple text="Desbloquear cartão" />
         <CardPurple text="Cobrar" />
+        <CardPurple text="Cobrar" />
       </Content>
     </>
   );

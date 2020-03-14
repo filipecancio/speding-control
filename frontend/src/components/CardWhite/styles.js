@@ -3,9 +3,11 @@ import styled from "styled-components";
 export const Content = styled.div`
   color: var(--color-secondary-orange-600);
   background-color: var(--color-third-300);
+
   width: 100%;
-  height: 394px;
+  height: 304px;
   border-radius: 2px;
+  margin: auto;
 
   display: flex;
   flex-direction: column;
