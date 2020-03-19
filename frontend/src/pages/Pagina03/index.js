@@ -18,25 +18,14 @@ function Pagina03() {
   }, []);
   return (
     <div>
-      <h1>{api.value}</h1>
-      <BadgeTransaction
-        categoria="Restaurante"
-        nome="Outback Steak House"
-        valor="93,25"
-        data="03 MAR"
-      />
-      <BadgeTransaction
-        categoria="Restaurante"
-        nome="Padaria Estrela Guia"
-        valor="17,30"
-        data="09 MAR"
-      />
-      <BadgeTransaction
-        categoria="Restaurante"
-        nome="Pizza Hut"
-        valor="40,85"
-        data="13  MAR"
-      />
+      {api.map(element => (
+        <BadgeTransaction
+          categoria={element.categoria}
+          nome={element.nome}
+          valor={element.valor}
+          data={element.data}
+        />
+      ))}
     </div>
   );
 }
