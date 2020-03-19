@@ -6,25 +6,22 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
   & h1 {
-    font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 14px;
     color: #6c6c6c;
-    margin: 5px;
+    margin: 20px 0px 0px 0px;
   }
   & h2 {
-    font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 12px;
     margin: 5px;
     color: #c4c4c4;
+    margin: 10px 0px;
   }
   & h3 {
-    font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 18px;
-    line-height: 123.05%;
+    line-height: 0.625em;
     color: #6c6c6c;
-    margin: 5px;
   }
 `;

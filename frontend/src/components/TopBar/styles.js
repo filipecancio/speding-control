@@ -21,7 +21,7 @@ export const Alarm = styled.div`
   background: url(${iconAlarm}) no-repeat center right;
   width: 45px;
   height: 25px;
-  margin: 5px 0px 0px 150px;
+  margin: 0px 0px 0px 145px;
 `;
 export const WiFi = styled.div`
   background: url(${iconWifi}) no-repeat center right;
