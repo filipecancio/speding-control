@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
 export const Content = styled.div`
-  width: 334px;
-  height: 103px;
+  height: 100px;
+  width: 100%;
+  margin: auto;
+
   border-radius: 2px;
-  margin: 5px;
-  overflow: hidden;
+  overflow: scroll;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 
   & > div {
     margin: 5px;

@@ -1,10 +1,21 @@
 import React from "react";
+import Graph from "../../components/Graph";
+import TitleGraph from "../../components/TitleGraph";
+import BudgetRange from "../../components/BudgetRange";
+import ButtonBack from "../../components/ButtonBack";
+import EnableNotifications from "../../components/EnableNotifications";
+import api from "./data.json";
 
 function Pagina02() {
   return (
-    <>
-      <h1>Página 02</h1>
-    </>
+    <div>
+      <h1>{api.value}</h1>
+      <ButtonBack />
+      <TitleGraph />
+      <Graph />
+      <BudgetRange />
+      <EnableNotifications />
+    </div>
   );
 }
 
