@@ -1,11 +1,14 @@
 import React from "react";
 
-import { Content } from "./styles";
+import { Content, Icon } from "./styles";
 
 function CardPurple(props) {
   return (
     <>
-      <Content></Content>
+      <Content active={props.active}>
+        <Icon nome="cadeado" />
+        {props.text}
+      </Content>
     </>
   );
 }

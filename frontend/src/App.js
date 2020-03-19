@@ -3,7 +3,6 @@ import Colors from "./styles/settings/Colors";
 import Reset from "./styles/generics/Reset";
 import Base from "./styles/elements/Base";
 import Router from "./router";
-import { Tela } from "./styles/elements/Tela";
 
 function App() {
   return (
@@ -11,9 +10,7 @@ function App() {
       <Reset />
       <Base />
       <Colors />
-      <Tela>
-        <Router />
-      </Tela>
+      <Router />
     </>
   );
 }
