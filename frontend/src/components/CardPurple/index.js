@@ -1,12 +1,12 @@
 import React from "react";
 
-import { Content, Icon } from "./styles";
+import { Content, IconLock } from "./styles";
 
 function CardPurple(props) {
   return (
     <>
       <Content active={props.active}>
-        <Icon nome="cadeado" />
+        <IconLock nome="cadeado" />
         {props.text}
       </Content>
     </>

@@ -8,7 +8,6 @@ function AppBar(props) {
         <Triangle />
         <Circle />
         <Square />
-        <Ball></Ball>
       </Content>
     </>
   );

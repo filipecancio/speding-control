@@ -1,12 +1,15 @@
 import React from "react";
-import { Content } from "./styles";
+import { Content, Hour, Alarm, WiFi, Network, Battery} from "./styles";
 
 function TopBar(props) {
   return (
     <>
       <Content>
-        <div>18:30h</div>
-        <div>bola</div>
+        <Hour>18:40</Hour>
+        <Alarm />
+        <WiFi />
+        <Network />
+        <Battery />
       </Content>
     </>
   );
