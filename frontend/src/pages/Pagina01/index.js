@@ -18,7 +18,6 @@ function Pagina01() {
   }, []);
   return (
     <div>
-      <h1>{api.value}</h1>
       <CardWhite
         nome={data ? data.energia : "não foi"}
         saldo={data ? data.agua : "não foi"}

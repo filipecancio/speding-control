@@ -15,6 +15,7 @@ export const Content = styled.div`
 
 export const Icon = styled.div`
   background: url(${icon}) no-repeat center right;
-  width: 90%;
-  height: 300px;
+  width: 100%;
+  height: 200px;
+  margin: 0 20px;
 `;

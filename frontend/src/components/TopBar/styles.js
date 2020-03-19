@@ -14,6 +14,7 @@ export const Content = styled.div`
 `;
 export const Hour = styled.div`
   font-size: 1.2em;
+  color: var(--color-third-300);
   font-weight: regular;
   margin: 5px 15px;
 `;

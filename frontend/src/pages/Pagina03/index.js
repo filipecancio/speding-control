@@ -5,7 +5,6 @@ import api from "./data.json";
 function Pagina03() {
   return (
     <div>
-      <h1>{api.value}</h1>
       <BadgeTransaction
         categoria="Restaurante"
         nome="Outback Steak House"

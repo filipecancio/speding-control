@@ -9,7 +9,6 @@ import api from "./data.json";
 function Pagina02() {
   return (
     <div>
-      <h1>{api.value}</h1>
       <ButtonBack />
       <TitleGraph />
       <Graph />
