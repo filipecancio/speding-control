@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import CardWhite from "../../components/CardWhite";
 import CardRow from "../../components/CardRow";
+import api from "./data.json";
 
 function Pagina01() {
   const [data, setData] = useState();
@@ -17,6 +18,7 @@ function Pagina01() {
   }, []);
   return (
     <div>
+      <h1>{api.value}</h1>
       <CardWhite
         nome={data ? data.energia : "não foi"}
         saldo={data ? data.agua : "não foi"}

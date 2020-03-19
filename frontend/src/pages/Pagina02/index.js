@@ -4,10 +4,12 @@ import TitleGraph from "../../components/TitleGraph";
 import BudgetRange from "../../components/BudgetRange";
 import ButtonBack from "../../components/ButtonBack";
 import EnableNotifications from "../../components/EnableNotifications";
+import api from "./data.json";
 
 function Pagina02() {
   return (
     <div>
+      <h1>{api.value}</h1>
       <ButtonBack />
       <TitleGraph />
       <Graph />
