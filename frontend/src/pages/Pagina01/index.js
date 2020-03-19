@@ -9,11 +9,13 @@ function Pagina01() {
 
   useEffect(() => {
     (async () => {
-      axios.get(`http://31.220.60.150:8001/contas`).then(res => {
-        const response = res.data;
-        console.log(response);
-        setData(response);
-      });
+      axios
+        .get(`https://us-central1-speding-control.cloudfunctions.net/api/pg01`)
+        .then(res => {
+          const response = res.data;
+          console.log(response);
+          setData(response);
+        });
     })();
   }, []);
   return (
