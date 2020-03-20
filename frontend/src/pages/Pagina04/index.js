@@ -14,24 +14,24 @@ function Pagina04() {
         .get(`https://us-central1-speding-control.cloudfunctions.net/api/pg04`)
         .then(res => {
           const response = res.data;
-          console.log(response);
-          setData(response);
+          setData(response[0]);
         });
     })();
   }, []);
+  var temp = data ? data : api;
   return (
     <div>
-      <AccountDetails agencia={api.geral.agencia} conta={api.geral.conta} />
+      <AccountDetails agencia={temp.geral.agencia} conta={temp.geral.conta} />
       <SelectMonth />
       <TotalTransaction
-        tipo={api.transacao01.tipo}
-        total={api.transacao01.total}
-        valor={api.transacao01.valor}
+        tipo={temp.transacao01.tipo}
+        total={temp.transacao01.total}
+        valor={temp.transacao01.valor}
       />
       <TotalTransaction
-        tipo={api.transacao01.tipo}
-        total={api.transacao01.total}
-        valor={api.transacao01.valor}
+        tipo={temp.transacao01.tipo}
+        total={temp.transacao01.total}
+        valor={temp.transacao01.valor}
       />
       <Graph01 />
     </div>

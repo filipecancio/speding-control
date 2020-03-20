@@ -15,8 +15,7 @@ function Pagina02() {
         .get(`https://us-central1-speding-control.cloudfunctions.net/api/pg02`)
         .then(res => {
           const response = res.data;
-          console.log(response);
-          setData(response);
+          setData(response[0]);
         });
     })();
   }, []);

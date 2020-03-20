@@ -12,14 +12,14 @@ function Pagina01() {
         .get(`https://us-central1-speding-control.cloudfunctions.net/api/pg01`)
         .then(res => {
           const response = res.data;
-          setData(response);
+          setData(response[0]);
         });
     })();
   }, []);
   return (
     <div>
-      <CardWhite informacoes={api.geral} />
-      <CardRow operacoes={api.operacoes} />
+      <CardWhite informacoes={data ? data.geral : api.geral} />
+      <CardRow operacoes={data ? data.operacoes : api.operacoes} />
     </div>
   );
 }
