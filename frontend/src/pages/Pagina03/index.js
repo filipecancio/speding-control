@@ -11,14 +11,14 @@ function Pagina03() {
         .get(`https://us-central1-speding-control.cloudfunctions.net/api/pg03`)
         .then(res => {
           const response = res.data;
-          console.log(response);
-          setData(response);
+          setData(response[0]);
         });
     })();
   }, []);
+  var temp = data ? data : api;
   return (
     <div>
-      {api.transations.map(element => (
+      {temp.transations.map(element => (
         <BadgeTransaction
           categoria={element.categoria}
           nome={element.nome}
