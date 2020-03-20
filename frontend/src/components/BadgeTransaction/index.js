@@ -1,11 +1,10 @@
 import React from "react";
-import { Content, Icon, IconClose } from "./styles";
+import { Content, Icon } from "./styles";
 
 function BadgeTransaction(props) {
   return (
     <>
       <Content>
-        <IconClose />
         <Icon />
         <div>
           <h1>{props.categoria}</h1>

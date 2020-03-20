@@ -6,12 +6,12 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #fdfdfd;
+  background-color: #fff;
 `;
 export const SpotlightMonth = styled.div`
   font-size: 1.25em;
   color: var(--color-third-900);
-  margin: 30px;
+  margin: 10px;
 `;
 export const Months = styled.div`
   font-size: 0.825em;

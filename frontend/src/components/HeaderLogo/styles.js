@@ -3,10 +3,10 @@ import iconArrowDown from "../../icons/icon-arrowdown.svg";
 import iconLogoNubank from "../../icons/icon-logo.svg";
 
 export const Header = styled.div`
-  background-color: var(--color-third-900);
+  background-color: none;
   width: 100%;
   height: 60px;
-  margin: 5px auto;
+  margin: 0px auto;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -18,15 +18,15 @@ export const LogoNubank = styled.div`
   margin: auto 10px;
 `;
 export const NameAccount = styled.div`
-  color: var(--color-third-500);
+  color: var(--color-third-300);
   text-align: center;
   font-weight: regular;
-  font-size: 0.726em;
+  font-size: 1em;
   margin: auto 0px;
 `;
 export const ArrowDown = styled.div`
   background: url(${iconArrowDown}) no-repeat center left;
-  background-color: var(--color-third-900);
+  background-color: none;
   width: 14px;
   height: 19px;
   margin: 0px auto;

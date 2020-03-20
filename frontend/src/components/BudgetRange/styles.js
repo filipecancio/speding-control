@@ -5,7 +5,7 @@ export const Content = styled.h1`
   font-weight: 600;
   font-size: 12px;
   color: #4b4b4b;
-  margin: -15px 0px;
+  margin: 5px 0px;
 `;
 export const ValuesBalance = styled.div`
   display: flex;

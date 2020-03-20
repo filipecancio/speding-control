@@ -44,11 +44,6 @@ export const Content = styled.h1`
   }
 `;
 
-export const IconClose = styled.div`
-  background: url(${iconClose}) no-repeat center right;
-  width: 15.45px;
-  height: 23.17px;
-`;
 export const Icon = styled.div`
   background: url(${icon}) no-repeat center right;
   width: 15.45px;

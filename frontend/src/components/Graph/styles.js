@@ -6,11 +6,11 @@ export const Content = styled.div`
   width: 100%;
   height: 200px;
   border-radius: 2px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px 20px;
 `;
 
 export const Icon = styled.div`

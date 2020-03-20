@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import iconTransaction from "../../icons/icon-transaction.svg";
 export const Content = styled.div`
-  background-color: var(--color-third-300);
+  background-color: #fff;
   width: 100%;
   height: 100%;
   border-radius: 2px;

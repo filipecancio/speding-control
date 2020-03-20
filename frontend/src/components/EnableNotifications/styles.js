@@ -7,7 +7,7 @@ export const Content = styled.div`
   display: flex;
   align-items: left;
   align-self: flex-start;
-  margin: 20px;
+  margin: 5px;
 
   & h1 {
     font-style: normal;
@@ -27,8 +27,8 @@ export const ButtonSalve = styled.div`
   margin: 10px auto;
   padding: 10px 0px;
   text-align: center;
-  border-top: 1px solid var(--color-third-600);
-  width: 100%;
+  border: 1px solid var(--color-third-600);
+  width: 70%;
   text-transform: uppercase;
   color: var(--color-third-800);
 `;

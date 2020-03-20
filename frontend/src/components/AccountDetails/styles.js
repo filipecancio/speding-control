@@ -8,8 +8,8 @@ export const DetailsAccount = styled.div`
   height: 60px;
   display: flex;
   justify-content: space-around;
-  background: #fdfdfd;
-  box-shadow: 2px 3px var(--color-third-900);
+  background: #fff;
+  box-shadow: 1px 1px var(--color-third-400);
 `;
 export const IconArrow = styled.div`
   align-self: flex-start;

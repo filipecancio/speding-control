@@ -9,7 +9,7 @@ export const Content = styled.div`
     font-weight: normal;
     font-size: 14px;
     color: #6c6c6c;
-    margin: 20px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
   }
   & h2 {
     font-weight: bold;

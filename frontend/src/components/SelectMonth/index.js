@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonBack from "../ButtonBack";
+import ButtonMonth from "../ButtonMonth";
 import ButtonNext from "../ButtonNext";
 
 import { Content, Months, SpotlightMonth } from "./styles";
@@ -8,7 +8,7 @@ function SelectMonth(props) {
   return (
     <>
       <Content>
-        <ButtonBack />
+        <ButtonMonth />
         <Months>Fevereiro</Months>
         <SpotlightMonth>Março</SpotlightMonth>
         <Months>Abril</Months>
