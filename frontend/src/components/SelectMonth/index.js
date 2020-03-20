@@ -1,16 +1,17 @@
 import React from "react";
-import ButtonBack from "../ButtonBack";
+import ButtonMonth from "../ButtonMonth";
 import ButtonNext from "../ButtonNext";
-import { Content } from "./styles";
+
+import { Content, Months, SpotlightMonth } from "./styles";
 
 function SelectMonth(props) {
   return (
     <>
       <Content>
-        <ButtonBack />
-        <h1>FEV</h1>
-        <h1>MAR</h1>
-        <h1>ABR</h1>
+        <ButtonMonth />
+        <Months>Fevereiro</Months>
+        <SpotlightMonth>Março</SpotlightMonth>
+        <Months>Abril</Months>
         <ButtonNext />
       </Content>
     </>

@@ -1,0 +1,24 @@
+{
+  "geral": {
+    "usuario": "Joao Pedro!",
+    "saldo_total": "R$ 850,00",
+    "ultima_tranferencia": "Transferência de R$ 40,00 feita para Bruna Jullyeti de Jesus em 10 FEV 2020"
+  },
+  "operacoes": [
+    {
+      "active": true,
+      "text": "Controle de gastos",
+      "nome": "controle"
+    },
+    {
+      "active": false,
+      "text": "Desbloquear cartão",
+      "nome": "cadeado"
+    },
+    {
+      "active": false,
+      "text": "Cobrar",
+      "nome": "cobrar"
+    }
+  ]
+}

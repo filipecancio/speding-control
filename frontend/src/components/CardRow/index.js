@@ -6,11 +6,16 @@ import CardPurple from "../CardPurple";
 function CardRow(props) {
   return (
     <>
-      <Content>
-        <CardPurple active text="Controle de gastos" />
-        <CardPurple text="Desbloquear cartão" />
-        <CardPurple text="Cobrar" />
-        <CardPurple text="Cobrar" />
+      <Content operacoes={props.operacoes}>
+        {props.operacoes.map(element => {
+          return (
+            <CardPurple
+              active={element.active}
+              text={element.text}
+              nome={element.nome}
+            />
+          );
+        })}
       </Content>
     </>
   );

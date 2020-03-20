@@ -6,4 +6,5 @@ export const Icon = styled.h1`
   background: url(${icon}) no-repeat center right;
   width: 16px;
   height: 16px;
+  margin: 30px 10px;
 `;

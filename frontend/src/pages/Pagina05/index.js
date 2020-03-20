@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import ErrorIcon from "../../components/ErrorIcon";
+import HeaderLogo from "../../components/HeaderLogo";
 
 function Pagina05() {
+  const [data, setData] = useState();
+  useEffect(() => {
+    (async () => {
+      axios
+        .get(`https://us-central1-speding-control.cloudfunctions.net/api/pg05`)
+        .then(res => {
+          const response = res.data;
+          console.log(response);
+          setData(response);
+        });
+    })();
+  }, []);
   return (
-    <>
-      <h1>Opssss</h1>
-      <h2>Alguma coisa está errada</h2>
+    <div>
+      <HeaderLogo />
       <ErrorIcon />
-      <h1>Esse ainda não é o aplicativo do nubank mas poderá ser no futuro.</h1>
-      <button>VOLTAR PARA A TRILHA</button>
-    </>
+    </div>
   );
 }
 

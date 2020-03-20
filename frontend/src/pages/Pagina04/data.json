@@ -1,0 +1,16 @@
+{
+  "geral": {
+    "agencia": "001",
+    "conta": "0001945-3"
+  },
+  "transacao01": {
+    "tipo": "ENTRADAS",
+    "total": "5",
+    "valor": "785,00"
+  },
+  "transacao02": {
+    "tipo": "SAÍDAS",
+    "total": "12",
+    "valor": "785,00"
+  }
+}
