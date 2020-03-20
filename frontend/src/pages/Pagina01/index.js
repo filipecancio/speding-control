@@ -6,25 +6,20 @@ import api from "./data.json";
 
 function Pagina01() {
   const [data, setData] = useState();
-
   useEffect(() => {
     (async () => {
       axios
         .get(`https://us-central1-speding-control.cloudfunctions.net/api/pg01`)
         .then(res => {
           const response = res.data;
-          console.log(response);
           setData(response);
         });
     })();
   }, []);
   return (
     <div>
-      <CardWhite
-        nome={data ? data.energia : "não foi"}
-        saldo={data ? data.agua : "não foi"}
-      />
-      <CardRow />
+      <CardWhite informacoes={api.geral} />
+      <CardRow operacoes={api.operacoes} />
     </div>
   );
 }

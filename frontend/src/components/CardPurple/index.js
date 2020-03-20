@@ -6,7 +6,7 @@ function CardPurple(props) {
   return (
     <>
       <Content active={props.active}>
-        <IconLock nome="cadeado" />
+        <IconLock nome={props.nome} />
         {props.text}
       </Content>
     </>
