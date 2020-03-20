@@ -4,6 +4,7 @@ import SelectMonth from "../../components/SelectMonth";
 import TotalTransaction from "../../components/TotalTransaction";
 import Graph01 from "../../components/Graph01";
 import AccountDetails from "../../components/AccountDetails";
+import api from "./data.json";
 
 function Pagina04() {
   const [data, setData] = useState();
@@ -20,10 +21,18 @@ function Pagina04() {
   }, []);
   return (
     <div>
-      <AccountDetails />
+      <AccountDetails agencia={api.geral.agencia} conta={api.geral.conta} />
       <SelectMonth />
-      <TotalTransaction tipo="ENTRADAS" total="5" valor="785,00" />
-      <TotalTransaction tipo="SAÍDAS" total="12" valor="785,00" />
+      <TotalTransaction
+        tipo={api.transacao01.tipo}
+        total={api.transacao01.total}
+        valor={api.transacao01.valor}
+      />
+      <TotalTransaction
+        tipo={api.transacao01.tipo}
+        total={api.transacao01.total}
+        valor={api.transacao01.valor}
+      />
       <Graph01 />
     </div>
   );

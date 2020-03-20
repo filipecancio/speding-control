@@ -42,7 +42,7 @@ const Router = () => (
         </Tela>
       </Route>
       <Route path="/5" exact>
-        <Tela blancked>
+        <Tela>
           <TopBar />
           <Pagina05 />
           <AppBar />
