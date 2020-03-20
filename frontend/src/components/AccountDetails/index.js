@@ -14,9 +14,9 @@ function AccountDetails(props) {
       <DetailsAccount>
         <IconArrow />
         <IconPayment />
-        <Operation>001</Operation>
+        <Operation>{props.agencia}</Operation>
         <IconCard />
-        <Account>0001945-3</Account>
+        <Account>{props.conta}</Account>
       </DetailsAccount>
     </>
   );
