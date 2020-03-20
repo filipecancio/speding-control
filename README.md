@@ -1,11 +1,8 @@
 # Desafio Nubank: Controle de Custos
 
-[![website](https://img.shields.io/badge/mvp-website-violet)](https://jappy.cancio.dev/)
-
 :purple_heart: Nossa proposta é **ajudar o cliente a ter maior autonomia sobre sua vida financeira, de forma mais simples e intuitiva**.
 
 ![imagem01](.doc/images/image01.png)
-
 
 # Qual problema estamos nos propondo a solucionar?
 
@@ -21,4 +18,14 @@ Pensando nisso e, após entrevistar, nos inserir e entender o universo de nossa 
 
 É o controle financeiro na palma da mão dos brasileiros de forma simples e intuitiva, com tudo em um único aplicativo e lugar: no seu celular.
 
+# Execução do projeto
 
+> O deploy do projeto [🔗](https://speding-control.firebaseapp.com/) encontra-se com problemas de rotas, devido ao hosting do firebase, portanto para executar o proejeto é necessário executar os seguintes comandos:
+
+```
+cd frontend
+yarn install
+yarn start
+```
+
+Para visualizar a api do projeto [🔗](https://us-central1-speding-control.cloudfunctions.net/api/pg01) basta colocar os endpoints `pg01` , `pg02` , `pg03` , `pg04` e `pg05`.
